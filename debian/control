@@ -15,6 +15,7 @@ Vcs-Browser: https://github.com/rockchip-linux/linux-rga
 Package: librga-dev
 Section: libdevel
 Architecture: any
+Depends: librga2 (= ${binary:Version})
 Description: Userspace interface to Rockchip RGA 2D accelerator
 
 Package: librga2
